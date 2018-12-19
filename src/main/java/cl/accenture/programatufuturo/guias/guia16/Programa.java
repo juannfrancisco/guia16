@@ -14,19 +14,19 @@ public class Programa {
                 "Funk, Rock",
                 200 );
 
-        Cancion cancion2 = new Cancion(2,
+        /**Cancion cancion2 = new Cancion(2,
                 "Locura espacial",
                 "Chancho en Piedra",
                 "Funk, Rock",
                 200 );
-
+         */
         // Insertar una cancion
         // dao.agregarCancion(cancion);
         System.out.println("Cancion agregada  + " + cancion);
 
         // Insertar una cancion
-        dao.agregarCancion(cancion2);
-        System.out.println("Cancion agregada  + " + cancion2);
+        //dao.agregarCancion(cancion2);
+        //System.out.println("Cancion agregada  + " + cancion2);
     }
 
 }
