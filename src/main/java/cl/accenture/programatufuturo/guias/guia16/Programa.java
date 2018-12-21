@@ -21,7 +21,7 @@ public class Programa {
                 200 );
          */
         // Insertar una cancion
-        // dao.agregarCancion(cancion);
+        dao.agregarCancion(cancion);
         System.out.println("Cancion agregada  + " + cancion);
 
         // Insertar una cancion
